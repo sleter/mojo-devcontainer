@@ -1,7 +1,7 @@
 
 # Mojo
 
-A hello world Template
+Devcontainer for Mojo programming language.
 
 ## Options
 
