@@ -3,8 +3,8 @@ cd $(dirname "$0")
 source test-utils.sh
 
 # Template specific tests
-check "distro" lsb_release -c
-check "color" [ $(cat /tmp/color.txt | grep red) ]
+check "distro" uname -a
+check "mojo" mojo --version
 
 # Report result
 reportResults

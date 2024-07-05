@@ -1,0 +1,24 @@
+{
+    "id": "mojo",
+    "version": "0.0.1",
+    "name": "Mojo",
+    "description": "Installs Mojo programming language on Ubuntu using default SDK setup from Mojo repository.",
+    "documentationURL": "https://github.com/sleter/mojo-devcontainer/main/src/mojo",
+    "licenseURL": "https://github.com/sleter/mojo-devcontainer/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Ubuntu version to use as base image.",
+            "proposals": [
+                "focal",
+                "jammy",
+                "mantic",
+                "noble"
+            ],
+            "default": "focal"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
